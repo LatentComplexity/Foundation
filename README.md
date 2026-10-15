@@ -22,7 +22,7 @@ bmake [mode] test-run
 bmake [mode] test-run-NSData
 ```
 
-The mode for both can be one of `debug`, `san`, or `release`, as above. The first builds and runs all tests. The second runs tests only for NSData. Swap out `NSData` for any other class name present in `Testing/`. 
+The mode for both can be one of `debug`, `san`, or `release`, as above. The first builds and runs all tests. The second runs tests only for `NSData`. Swap out `NSData` for any other class name present in `Testing/`. 
 
 ```
 bmake clean
